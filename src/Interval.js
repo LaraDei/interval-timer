@@ -9,7 +9,7 @@ export default class Interval extends React.Component{
                 <div className='title' id={this.props.timerId}>
                     {this.props.title}
                 </div>
-                <div  classname='time'id={this.props.lengthId}>
+                <div  className='time'id={this.props.lengthId}>
                     {this.props.length}
                 </div>
                 <div className='time-controls'>

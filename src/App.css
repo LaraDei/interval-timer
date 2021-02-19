@@ -1,18 +1,20 @@
 body{
   background-image: linear-gradient(to bottom right, #74ebd5, #5163b4);
-  padding-bottom: 25px;
+  height: 100vw;
 }
 .App{
   text-align: center;
   margin: auto;
 }
 h1{
-  margin-bottom: 45px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   color: rgb(233, 240, 247);
 }
 .timer {
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin: auto;
@@ -25,15 +27,18 @@ h1{
 .Timer{
   border: 3px solid aliceblue;
   border-radius: 100px;
-  padding: 25px;
+  padding: 10px;
   
 }
 .face{
   background-color: rgba(6, 35, 53, 0.596);
   padding: 5px;
   border-radius: 15px;
-  flex-grow: 2;
+  width: 75%;
   margin: 15px;
+}
+.setup{
+  display: flex;
 }
 
 .interval{
@@ -49,7 +54,14 @@ button{
   border: none;
   margin: 2px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
+#time-left {
+  font-size: 35px;
+  color: #FAD961;
+}
 
-
+.time{
+  color: rgb(235, 175, 243);
+}
